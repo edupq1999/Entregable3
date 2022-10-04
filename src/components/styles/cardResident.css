@@ -1,0 +1,43 @@
+.card_resident{
+    background-color: var(--blue2);   
+    border-radius: 15px;
+    position: relative;
+    width: 304px;
+    border: 2px solid var(--green);
+}
+.card_resident:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid var(--green);
+}
+.resident_img{
+    border-radius: 15px 15px 0 0;
+
+}
+.resident_header{
+    position: relative;
+}
+.resident_status{
+    position: absolute;
+    top: 10px;
+    padding: 2px 15px;
+    background-color: var(--blue);
+    border-radius: 0 15px 15px 0 ;
+    border: 2px var(--green);
+    border-style: solid solid solid none;
+}
+.resident_status_info{
+    color: var(--white);
+}
+.resident_info{    
+    width: 80%;
+    margin: 10px auto;
+}
+.resident_name{
+    color: var(--green2);
+    font-size: 30px;
+}
+.resident_more_info{
+    margin: 10px 0;
+    color: var(--yellow);
+}

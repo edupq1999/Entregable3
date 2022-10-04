@@ -1,0 +1,17 @@
+.filter{
+    position: absolute;
+    z-index: 1;
+    background-color: var(--blue);
+    width: 80%;
+}
+.filter_option{
+    margin: 2px 10px;
+    color: var(--white);
+    cursor: pointer;
+}
+.filter_option:hover{
+    transform: scale(1.1); 
+    transform: translateX(20px);
+    transition: 0.5s;
+    color: var(--yellow);
+}

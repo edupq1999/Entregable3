@@ -1,0 +1,24 @@
+.location{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--blue2);
+    margin-bottom: 20px;
+    border: 2px solid var(--green);
+    border-radius: 15px;
+}
+.location_tittle{
+    color: var(--green2);
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+.location_info{
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(1.2);
+    gap: 5em;
+    padding: 10px;
+    color: var(--yellow);
+}

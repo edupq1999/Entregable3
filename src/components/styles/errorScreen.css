@@ -1,0 +1,6 @@
+.error{
+    padding: 20px;
+    color: var(--green2);
+    -webkit-text-stroke: 2px var(--yellow);
+    font-size: 40px;
+}
