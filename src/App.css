@@ -54,8 +54,11 @@ ul{
 .app_button{
     padding: 10px;
     border-radius: 15px;
-    border: 0;
+    border: 2px solid var(--green);
     margin: 0 10px;
+    color: var(--yellow);
+    background-color: var(--blue2);
+
 }
 .resident{
     display: flex;
