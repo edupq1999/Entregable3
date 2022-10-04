@@ -42,10 +42,10 @@ ul{
 .app_input{
     padding: 5px;
     border: 0;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid var(--blue2);
     outline: 0;
     font-size: 1.3rem;
-    color: white;
+    color: var(--green2);
     padding: 7px 0;
     background: transparent;
     transition: border-color 0.2s;
